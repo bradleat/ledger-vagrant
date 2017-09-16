@@ -4,7 +4,7 @@
 - Install Vagrant and Virtualbox on your machine
 - Run the following
 ```
-> git clone https://github.com/fix/ledger-vagrant
+> git clone https://github.com/bradleat/ledger-vagrant
 > cd ledger-vagrant
 > vagrant up
 ```
@@ -14,12 +14,13 @@ This will take a few minutes to install
 - install your app under `apps/` for instance:
 ```
 cd apps/
-git clone https://github.com/LedgerHQ/blue-app-xrp
+git clone https://github.com/bradleat/ledger-wallet-lisk
+git clone https://github.com/LedgerHQ/blue-sample-apps
 ```
 - Connect to the machine `vagrant ssh`
 - build your app
 ```
-cd apps/blue-app-xrp
+cd apps/ledger-wallet-lisk/@packages/blue-app-lisk
 make clean
 make
 ```
